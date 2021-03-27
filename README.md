@@ -16,6 +16,16 @@ OpenCV 4.5.1
 4. misc_functions contains some useful image processing functions
 5. Run predict_test.py file to generate figures
 
+## Results
+Note that you can adjust the target convolutional layer from YOLO v3's three output scales freely in the script: model.py. 
+![pixel](Figure_1.png)
+![opencvmap](new_map.jpg)
+![gray](cam-featuremap_Cam_Grayscale.png)
+![heatmap](cam-featuremap_Cam_Heatmap.png)
+![combine](cam-featuremap_Cam_On_Image.png)
+![bbox](gradCAM-yolo-predict_box.jpg)
+![object-heatmap](gradCAM-yolo-heatmap.jpg)
+
 ## References
 1. https://github.com/yizt/Grad-CAM.pytorch
 2. https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82
@@ -24,3 +34,4 @@ OpenCV 4.5.1
 The most important idea here is to understand the hook function and obtain the gradients of target layers. If you figure it out, you can transfer this algorithm on many models no matter classification CNN networks or complex object detection networks.
 
 If you have any questions, welcome to contact me:)
+
