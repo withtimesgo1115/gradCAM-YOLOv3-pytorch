@@ -13,7 +13,8 @@ OpenCV 4.5.1
   - color map based on PIL Image library
   - pixel matplot and color map based on openCV
   - the color map of object which has the highest score  
-4. Run predict_test.py file to generate figures
+4. misc_functions contains some useful image processing functions
+5. Run predict_test.py file to generate figures
 
 ## References
 1. https://github.com/yizt/Grad-CAM.pytorch
